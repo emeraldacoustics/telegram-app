@@ -2,6 +2,7 @@
 import './App.css';
 import { useState } from 'react';
 import { ThemeContext } from './components/theme_context';
+import LeftColumn from './components/left_column';
 import MiddleColumn from './components/middle_column';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <ThemeContext.Provider value={theme}>
       <main className={theme}>
+        <LeftColumn />
         <MiddleColumn isChannel={false} />
       </main>
     </ThemeContext.Provider>
