@@ -3,6 +3,7 @@
 	flex-direction: column;
 	width: 100%;
 	max-width: 25rem;
+	border-right-style: solid;
 	border-right-width: 1px;
 }
 
