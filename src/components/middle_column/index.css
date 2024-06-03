@@ -7,6 +7,9 @@
 
 .MiddleHeader {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
 	height: 3.5rem;
 	padding-top: 0.25rem;
 	padding-bottom: 0.25rem;
@@ -15,6 +18,7 @@
 	width: 100%;
 	box-shadow: 2px 2px hsla(0, 0%, 6%, 0.612);
 	box-sizing: border-box;
+	vertical-align: center;
 }
 
 .MiddleHeader:is(.light) {
@@ -25,11 +29,8 @@
 	background-color: hsl(0, 0%, 13%);
 }
 
-.back-button {
-	float: left;
-	align-items: center;
-	justify-content: center;
-	vertical-align: middle;
+.back-button-container {
+	margin-right: .8125rem;
 }
 
 .ChatInfo {
@@ -83,6 +84,12 @@
 	color: hsl(0, 0%, 67%)
 }
 
+.header-tools {
+	float: right;
+	display: flex;
+	flex-direction: row;
+}
+
 .MiddleContent {
 	display: flex;
 	height: 100%;
@@ -129,3 +136,35 @@
 	background-color: hsl(0, 0%, 25%);
 }
 
+.middle-column-footer {
+	width: 100%;
+	padding: 0 1rem;
+	position: relative;
+	display: flex;
+	transition: top 200ms,transform var(--layer-transition);
+	height: 3.5rem;
+	justify-content: center;
+	align-items: center;
+}
+
+input[type='textarea'].message-input {
+	height: 2.5rem;
+	margin-bottom: 0;
+	border-radius: .5rem;
+	border-style: none;
+	padding-left: 1rem;
+	outline-style: none;
+	width: 100%;
+	font-size: 1rem;
+	padding: .4375rem 2.625rem .5rem 2.75rem;
+}
+
+input[type='textarea'].message-input:is(.light) {
+	color: hsl(0, 0%, 0%);
+	background-color: hsl(0, 0%, 95%);
+}
+
+input[type='textarea'].message-input:is(.dark) {
+	color: hsl(0, 0%, 100%);
+	background-color: hsl(0, 0%, 25%);
+}

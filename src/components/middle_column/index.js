@@ -120,10 +120,9 @@ function MiddleColumn({isChannel}) {
 	return (
 		<div id='MiddleColumn' className='MiddleColumn'>
 			<div className={'MiddleHeader ' + theme}>
-				<div className="back-button">
-					<button type="button" className="Button smaller translucent round" aria-label="Back" title="Back">
-						{'<'}
-						{/* <div className="animated-close-icon state-back"></div> */}
+				<div id='MiddleColumnBackButton' className='round-button-container back-button-container'>
+					<button type="button" className={'round-button ' + theme} aria-label="Back" title="Back">
+						<i className={'bi bi-arrow-left round-button-icon ' + theme}></i>
 					</button>
 				</div>
 				<div className='ChatInfo'>
@@ -145,21 +144,36 @@ function MiddleColumn({isChannel}) {
 					</div>
 				</div>
 				<div className="header-tools">
-					<div className="HeaderActions">
-						{/* <button type="button" className="Button smaller translucent round" aria-label="Search this chat" title="Search this chat">
-							<i className="icon icon-search" aria-hidden="true"></i>
+					<div id='MiddleHeaderSearch' className='round-button-container'>
+						<button type="button" className={'round-button ' + theme} aria-label="Back" title="Back">
+							<i className={'bi bi-search round-button-icon ' + theme}></i>
 						</button>
-						<button type="button" className="Button smaller translucent round has-ripple" aria-label="More actions" title="More actions">
-							<i className="icon icon-more" aria-hidden="true"></i>
-							<div className="ripple-container"></div>
-						</button> */}
+					</div>
+					<div id='MiddleHeaderCall' className='round-button-container'>
+						<button type="button" className={'round-button ' + theme} aria-label="Back" title="Back">
+							<i className={'bi bi-telephone round-button-icon ' + theme}></i>
+						</button>
+					</div>
+					<div className='round-button-container'>
+						<button type="button" className={'round-button ' + theme} aria-label="Back" title="Back">
+							<i className={'bi bi-three-dots-vertical round-button-icon ' + theme}></i>
+						</button>
 					</div>
 				</div>
 			</div>
 			<div className='MiddleContent custom-scroll'>
 				<div className='middle-content-box'>
 					{messageList}
-
+				</div>
+			</div>
+			<div className='middle-column-footer'>
+				<div className='message-box'>
+					<input type='textarea' className={'message-input ' + theme} />
+				</div>
+				<div className='round-button-container'>
+					<button type="button" className={'round-button ' + theme} aria-label="Back" title="Back">
+						<i className={'bi bi-mic round-button-icon ' + theme}></i>
+					</button>
 				</div>
 			</div>
 		</div>

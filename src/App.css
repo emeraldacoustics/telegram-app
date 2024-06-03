@@ -20,8 +20,32 @@
     pointer-events: auto;
 }
 
+#MiddleColumnBackButton {
+	display: none;
+}
+
+#MiddleHeaderSearch {
+	display: block;
+}
+
+#MiddleHeaderCall {
+	display: block;
+}
+
 @media screen and (max-width: 768px) {
 	#LeftColumn {
+		display: none;
+	}
+
+	#MiddleColumnBackButton {
+		display: block;
+	}
+
+	#MiddleHeaderSearch {
+		display: none;
+	}
+	
+	#MiddleHeaderCall {
 		display: none;
 	}
 }
@@ -35,6 +59,50 @@
 	position: relative;
 	width: 100%;
 	height: 100%;
+}
+
+.round-button-container {
+	width: 2.5rem !important;
+	height: 2.5rem !important;
+}
+
+.round-button {
+	width: 100%;
+	height: 100%;
+	border-style: none;
+	background: none;
+	border-radius: 50%;
+}
+
+.round-button:hover:is(.light) {
+	background-color: hsl(0, 0%, 75%);
+}
+
+.round-button:hover:is(.dark) {
+	background-color: hsl(0, 0%, 25%);
+}
+
+.round-button:is(.light) {
+	color: hsl(0, 0%, 33%);
+}
+
+.round-button:is(.dark) {
+	color: hsl(0, 0%, 67%);
+}
+
+.round-button-icon {
+	/* Make sure the icon doesn't block input clicks */
+	pointer-events: none;
+	font-size: 1.375rem;
+	line-height: 1;
+}
+
+.round-button-icon:is(.light) {
+	color: hsl(0, 0%, 33%);
+}
+
+.round-button-icon:is(.dark) {
+	color: hsl(0, 0%, 67%);
 }
 
 main {

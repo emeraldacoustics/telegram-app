@@ -2,26 +2,143 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	max-width: 20rem;
+	max-width: 25rem;
+	border-right-width: 1px;
 }
 
 .LeftColumn:is(.light) {
 	background-color: hsl(0, 0%, 100%);
+	border-right-color: hsl(0, 0%, 50%);
 }
 
 .LeftColumn:is(.dark) {
 	background-color: hsl(0, 0%, 13%);
+	border-right-color: hsl(0, 0%, 50%);
 }
 
 .LeftMainHeader {
 	display: flex;
+	flex-direction: row;
 	height: 3.5rem;
-	padding-top: 0.25rem;
-	padding-bottom: 0.25rem;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
 	width: 100%;
 	box-sizing: border-box;
+	padding: .375rem .8125rem .5rem .8125rem;
+}
+
+.relative {
+	position: relative;
+}
+
+.menu-container {
+	min-width: 17rem;
+	max-height: calc(100vh - 3.75rem);
+	overflow-y: auto;
+	background: hsla(0, 0%, 13%, 0.87);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	padding: .25rem 0;
+
+	overflow: hidden;
+	display: block;
+	list-style: none;
+	margin: 0;
+	background-color: var(--color-background);
+	box-shadow: 0 .25rem .5rem .125rem hsla(0, 0%, 6%, 0.612);
+	border-radius: .75rem;
+	min-width: 13.5rem;
+	z-index: 1;
+	overscroll-behavior: contain;
+	/* color: var(--color-text); */
+	/* transform: scale(0.85); */
+	/* transition: opacity 150ms cubic-bezier(0.2, 0, 0.2, 1), transform 150ms cubic-bezier(0.2, 0, 0.2, 1) !important; */
+	/* --offset-y: calc(100% + 0.5rem);
+	--offset-x: 0; */
+
+	transition: opacity 2s ease 1s;
+
+	position: absolute;
+	left: 0px;
+	top: 100%;
+}
+
+.menu-container:is(.light) {
+	background-color: hsla(0, 0%, 87%, 0.867);
+}
+
+.menu-container:is(.dark) {
+	background-color: hsla(0, 0%, 13%, 0.867);
+}
+
+.menu-item {
+	font-size: .875rem;
+	margin: .125rem .25rem;
+	padding: .25rem;
+	border-radius: .375rem;
+	width: auto;
+	font-weight: 500;
+	transform: scale(1);
+	transition: .15s ease-in-out transform;
+}
+
+.menu-item-icon {
+	max-width: 1.25rem;
+	font-size: 1.25rem;
+	margin-left: .5rem;
+	margin-right: 1.25rem;
+}
+
+.search-container {
+	position: relative;
+	/* width: 100%; */
+	min-width: calc(100% - 3.25rem);
+	/* max-width: 400px; */
+	margin-left: .8125rem;
+}
+
+.search-icon {
+	position: absolute;
+	top: 50%;
+    left: .75rem;
+	transform: translateY(-50%);
+	color: #888;
+	/* pointer-events: none; // Make sure the icon doesn't block input clicks */
+    font-size: 1.375rem;
+    line-height: 1;
+}
+
+input[type='text'].search-input {
+	height: 2.5rem;
+	margin-bottom: 0;
+	border-radius: 1.375rem;
+	border-style: none;
+	padding-left: 1rem;
+	width: 100%;
+	font-size: 1rem;
+	padding: .4375rem 2.625rem .5rem 2.75rem;
+}
+
+input[type='text'].search-input:focus {
+	outline-offset: 0px;
+	outline-width: 0.125rem;
+	outline-style: solid;
+}
+
+input[type='text'].search-input:focus:is(.light) {
+	outline-color: hsl(210, 83%, 56%);
+}
+
+input[type='text'].search-input:focus:is(.dark) {
+	outline-color: hsl(250, 64%, 67%);
+}
+
+input[type='text'].search-input:is(.light) {
+	color: hsl(0, 0%, 0%);
+	background-color: hsl(0, 0%, 95%);
+}
+
+input[type='text'].search-input:is(.dark) {
+	color: hsl(0, 0%, 100%);
+	background-color: hsl(0, 0%, 25%);
 }
 
 .contacts-list {
@@ -71,7 +188,8 @@
 }
 
 .title {
-	font-size: 1.125rem;
+	font-weight: 500;
+	font-size: 1rem;
 }
 
 .title:is(.light) {
@@ -87,6 +205,8 @@
 }
 
 .status {
+	font-size: 1rem;
+	max-height: 1rem;
 	overflow: hidden;
 }
 
