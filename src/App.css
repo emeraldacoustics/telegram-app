@@ -13,11 +13,11 @@
 }
 
 .custom-scroll, .custom-scroll-x {
-    scrollbar-width: thin;
-    scrollbar-color: rgba(0,0,0,0) rgba(0,0,0,0);
-    transition: scrollbar-color .3s ease;
-    -webkit-overflow-scrolling: touch;
-    pointer-events: auto;
+	scrollbar-width: thin;
+	scrollbar-color: rgba(0,0,0,0) rgba(0,0,0,0);
+	transition: scrollbar-color .3s ease;
+	-webkit-overflow-scrolling: touch;
+	pointer-events: auto;
 }
 
 #MiddleColumnBackButton {
@@ -51,8 +51,8 @@
 }
 
 .overscroll-trigger {
-    display: none;
-    height: 1px;
+	display: none;
+	height: 1px;
 }
 
 .Transition {
@@ -106,8 +106,8 @@
 }
 
 main {
-    /* text-align: left;
-    overflow: hidden; */
+	/* text-align: left;
+	overflow: hidden; */
 	width: 100vw;
 	height: 100vh;
 	display: flex;
