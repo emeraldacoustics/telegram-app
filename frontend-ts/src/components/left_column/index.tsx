@@ -7,97 +7,97 @@ const contacts: {
 	name: string,
 	lastMsg: string,
 }[] = [
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Where are you?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-		{
-			avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
-			name: 'Shrek',
-			lastMsg: 'Hi! Did you have a nice dinner?'
-		},
-	];
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Where are you?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+	{
+		avatar: "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/a/a9/Frozen-disneyscreencaps_com-7.jpg",
+		name: 'Shrek',
+		lastMsg: 'Hi! Did you have a nice dinner?'
+	},
+];
 
 function LeftColumn() {
 	const [showMenu, setShowMenu] = useState<boolean>(false);
