@@ -4,7 +4,7 @@ const CustomError = require('../utils/custom_error');
 const jsonwebtoken = require('jsonwebtoken');
 
 exports.isAuthenticatedUser = catchAsyncErrors(async (req, res, next) => {
-	const {token} = req.cookies;
+	const { token } = req.cookies;
 
 	if (!token) {
 		return next(new CustomError('Login first to access this data', 401));

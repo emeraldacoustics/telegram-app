@@ -10,12 +10,12 @@ const userSchema = new mongoose.Schema({
 		maxLength: [30, 'Your name cannot exceed 30 characters'],
 		default: 'Telegram User'
 	},
-	number: {
+	email: {
 		type: String,
 		require: [true, 'Please enter your phone number'],
 		unique: true,
-		maxLength: [15, 'Your phone number cannot exceed 15 digits'],
-		validate: [validator.isMobilePhone, 'Please enter a valid phone number']
+		maxLength: [30, 'Your phone number cannot exceed 15 digits'],
+		validate: [validator.isEmail, 'Please enter a valid phone number']
 	},
 	password: {
 		type: String,
