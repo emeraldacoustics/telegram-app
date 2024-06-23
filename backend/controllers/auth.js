@@ -1,5 +1,5 @@
 // const User = require('../models/user');
-const User = require('../models/user.model');
+const User = require('../models/user');
 const catchAsyncErrors = require('../middlewares/catch_async_errors');
 const CustomError = require('../utils/custom_error');
 const sendToken = require('../utils/send_token');
@@ -7,6 +7,7 @@ const sendToken = require('../utils/send_token');
 // Register a user   => /api/v1/register
 exports.registerUser = catchAsyncErrors(async (req, res, next) => {
 	const {name, email, password} = req.body;
+	console.log(req.body);
 	const user = await User.create({
 		name,
 		email,

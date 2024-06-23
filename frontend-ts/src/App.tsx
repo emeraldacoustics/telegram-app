@@ -7,15 +7,15 @@ import LeftColumn from './components/left_column';
 import MiddleColumn from './components/middle_column';
 
 function App() {
-  const [theme, setTheme] = useState<string>('dark');
-  return (
-    <ThemeContext.Provider value={theme}>
-      <main className={theme}>
-        <LeftColumn />
-        <MiddleColumn isChannel={false} />
-      </main>
-    </ThemeContext.Provider>
-  );
+	const [theme, setTheme] = useState<string>('dark');
+	return (
+		<ThemeContext.Provider value={theme}>
+			<main className={theme}>
+				<LeftColumn />
+				<MiddleColumn isChannel={false} />
+			</main>
+		</ThemeContext.Provider>
+	);
 }
 
 export default App;

@@ -114,7 +114,7 @@ function LeftColumn() {
 			</div>
 			<div className="info">
 				<div className={'title ' + theme}>
-					<h3 dir="auto" role="button" className="fullName AS54Cntu">{contact.name}</h3>
+					<h3 dir="auto" role="button" className="title fullName AS54Cntu">{contact.name}</h3>
 				</div>
 				<span className={'status ' + theme}>
 					{contact.lastMsg}

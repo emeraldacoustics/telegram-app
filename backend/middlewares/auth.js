@@ -1,4 +1,4 @@
-const User = require('../models/user.model');
+const User = require('../models/user');
 const catchAsyncErrors = require('./catch_async_errors');
 const CustomError = require('../utils/custom_error');
 const jsonwebtoken = require('jsonwebtoken');

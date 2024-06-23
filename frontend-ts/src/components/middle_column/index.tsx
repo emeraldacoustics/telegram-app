@@ -139,7 +139,7 @@ function MiddleColumn({isChannel = true}: MiddleColumnProps) {
 					</div>
 					<div className="info">
 						<div className={'title ' + theme}>
-							<h3 dir="auto" role="button" className="fullName AS54Cntu">Codeforces Solutions</h3>
+							<h3 dir="auto" role="button" className="title fullName AS54Cntu">Codeforces Solutions</h3>
 						</div>
 						<span className={'status ' + theme}>
 							<span className="group-status">426 members</span>

@@ -12,10 +12,10 @@ const userSchema = new mongoose.Schema({
 	},
 	email: {
 		type: String,
-		require: [true, 'Please enter your phone number'],
+		require: [true, 'Please enter your email'],
 		unique: true,
-		maxLength: [30, 'Your phone number cannot exceed 15 digits'],
-		validate: [validator.isEmail, 'Please enter a valid phone number']
+		maxLength: [60, 'Your email cannot exceed 60 digits'],
+		validate: [validator.isEmail, 'Please enter a valid email']
 	},
 	password: {
 		type: String,
@@ -27,8 +27,6 @@ const userSchema = new mongoose.Schema({
 		type: Date,
 		default: Date.now
 	}
-
-
 });
 
 userSchema.pre('save', async function (next) {
